@@ -1,0 +1,505 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "twitter-bootstrap@4.5.0",
+      "destination": "wwwroot/lib/twitter-bootstrap/",
+      "files": [
+        "js/bootstrap.min.js",
+        "css/bootstrap-grid.css",
+        "css/bootstrap-grid.css.map",
+        "css/bootstrap-grid.min.css",
+        "css/bootstrap-grid.min.css.map",
+        "css/bootstrap-reboot.css",
+        "css/bootstrap-reboot.css.map",
+        "css/bootstrap-reboot.min.css",
+        "css/bootstrap-reboot.min.css.map",
+        "css/bootstrap.css",
+        "css/bootstrap.css.map",
+        "css/bootstrap.min.css",
+        "css/bootstrap.min.css.map",
+        "js/bootstrap.bundle.js",
+        "js/bootstrap.bundle.js.map",
+        "js/bootstrap.bundle.min.js.map",
+        "js/bootstrap.bundle.min.js",
+        "js/bootstrap.js",
+        "js/bootstrap.js.map",
+        "js/bootstrap.min.js.map"
+      ]
+    },
+    {
+      "library": "jquery@3.5.1",
+      "destination": "wwwroot/lib/jquery/",
+      "files": [
+        "jquery.min.js",
+        "jquery.js",
+        "jquery.min.map"
+      ]
+    },
+    {
+      "library": "jquery-validation-unobtrusive@3.2.11",
+      "destination": "wwwroot/lib/jquery-validation-unobtrusive/",
+      "files": [
+        "jquery.validate.unobtrusive.min.js",
+        "jquery.validate.unobtrusive.js"
+      ]
+    },
+    {
+      "library": "admin-lte@3.0.4",
+      "destination": "wwwroot/lib/admin-lte/",
+      "files": [
+        "js/pages/dashboard.js",
+        "js/pages/dashboard.min.js",
+        "js/pages/dashboard.min.js.map",
+        "js/pages/dashboard2.js",
+        "js/pages/dashboard2.min.js",
+        "js/pages/dashboard2.min.js.map",
+        "js/pages/dashboard3.js",
+        "js/pages/dashboard3.min.js",
+        "js/pages/dashboard3.min.js.map",
+        "js/adminlte.js",
+        "js/adminlte.js.map",
+        "js/adminlte.min.js",
+        "js/adminlte.min.js.map",
+        "js/demo.js",
+        "js/demo.min.js",
+        "js/demo.min.js.map",
+        "img/AdminLTELogo.png",
+        "img/avatar.png",
+        "img/avatar04.png",
+        "img/avatar2.png",
+        "img/avatar3.png",
+        "img/avatar5.png",
+        "img/boxed-bg.jpg",
+        "img/boxed-bg.png",
+        "img/default-150x150.png",
+        "img/icons.png",
+        "img/photo1.png",
+        "img/photo2.png",
+        "img/photo3.jpg",
+        "img/photo4.jpg",
+        "img/prod-1.jpg",
+        "img/prod-2.jpg",
+        "img/prod-3.jpg",
+        "img/prod-4.jpg",
+        "img/prod-5.jpg",
+        "img/user1-128x128.jpg",
+        "img/user2-160x160.jpg",
+        "img/user3-128x128.jpg",
+        "img/user4-128x128.jpg",
+        "img/user5-128x128.jpg",
+        "img/user6-128x128.jpg",
+        "img/user7-128x128.jpg",
+        "img/user8-128x128.jpg",
+        "img/credit/american-express.png",
+        "img/credit/cirrus.png",
+        "img/credit/mastercard.png",
+        "img/credit/mestro.png",
+        "img/credit/paypal.png",
+        "img/credit/paypal2.png",
+        "img/credit/visa.png",
+        "css/alt/adminlte.components.css",
+        "css/alt/adminlte.components.css.map",
+        "css/alt/adminlte.components.min.css",
+        "css/alt/adminlte.components.min.css.map",
+        "css/alt/adminlte.core.css",
+        "css/alt/adminlte.core.css.map",
+        "css/alt/adminlte.core.min.css",
+        "css/alt/adminlte.core.min.css.map",
+        "css/alt/adminlte.extra-components.css",
+        "css/alt/adminlte.extra-components.css.map",
+        "css/alt/adminlte.extra-components.min.css",
+        "css/alt/adminlte.extra-components.min.css.map",
+        "css/alt/adminlte.pages.css",
+        "css/alt/adminlte.pages.css.map",
+        "css/alt/adminlte.pages.min.css",
+        "css/alt/adminlte.pages.min.css.map",
+        "css/alt/adminlte.plugins.css",
+        "css/alt/adminlte.plugins.css.map",
+        "css/alt/adminlte.plugins.min.css",
+        "css/alt/adminlte.plugins.min.css.map",
+        "css/adminlte.css",
+        "css/adminlte.css.map",
+        "css/adminlte.min.css",
+        "css/adminlte.min.css.map"
+      ]
+    },
+    {
+      "library": "jquery-validate@1.19.1",
+      "destination": "wwwroot/lib/jquery-validate/",
+      "files": [
+        "jquery.validate.min.js",
+        "additional-methods.js",
+        "additional-methods.min.js",
+        "jquery.validate.js",
+        "localization/messages_zh.js",
+        "localization/messages_zh.min.js"
+      ]
+    },
+    {
+      "library": "toastr.js@2.1.4",
+      "destination": "wwwroot/lib/toastr.js/",
+      "files": [
+        "toastr.min.js",
+        "toastr.css",
+        "toastr.js.map",
+        "toastr.min.css"
+      ]
+    },
+    {
+      "library": "limonte-sweetalert2@8.11.8",
+      "destination": "wwwroot/lib/limonte-sweetalert2/"
+    },
+    {
+      "library": "bootstrap-table@1.16.0",
+      "destination": "wwwroot/lib/bootstrap-table/",
+      "files": [
+        "bootstrap-table.min.js",
+        "extensions/accent-neutralise/bootstrap-table-accent-neutralise.js",
+        "extensions/accent-neutralise/bootstrap-table-accent-neutralise.min.js",
+        "extensions/addrbar/bootstrap-table-addrbar.js",
+        "extensions/addrbar/bootstrap-table-addrbar.min.js",
+        "extensions/addrbar/bootstrap-table-addrbar.min.js.map",
+        "extensions/auto-refresh/bootstrap-table-auto-refresh.js",
+        "extensions/auto-refresh/bootstrap-table-auto-refresh.min.js",
+        "extensions/cell-input/bootstrap-table-cell-input.css",
+        "extensions/cell-input/bootstrap-table-cell-input.js",
+        "extensions/cell-input/bootstrap-table-cell-input.min.css",
+        "extensions/cell-input/bootstrap-table-cell-input.min.js",
+        "extensions/cookie/bootstrap-table-cookie.js",
+        "extensions/cookie/bootstrap-table-cookie.min.js",
+        "extensions/copy-rows/bootstrap-table-copy-rows.js",
+        "extensions/copy-rows/bootstrap-table-copy-rows.min.js",
+        "extensions/defer-url/bootstrap-table-defer-url.js",
+        "extensions/defer-url/bootstrap-table-defer-url.min.js",
+        "extensions/editable/bootstrap-table-editable.js",
+        "extensions/editable/bootstrap-table-editable.min.js",
+        "extensions/editable/bootstrap-table-editable.min.js.map",
+        "extensions/export/bootstrap-table-export.js",
+        "extensions/export/bootstrap-table-export.min.js",
+        "extensions/export/bootstrap-table-export.min.js.map",
+        "extensions/filter-control/bootstrap-table-filter-control.css",
+        "extensions/filter-control/bootstrap-table-filter-control.js",
+        "extensions/filter-control/bootstrap-table-filter-control.min.css",
+        "extensions/filter-control/bootstrap-table-filter-control.min.js",
+        "extensions/fixed-columns/bootstrap-table-fixed-columns.css",
+        "extensions/fixed-columns/bootstrap-table-fixed-columns.js",
+        "extensions/fixed-columns/bootstrap-table-fixed-columns.min.css",
+        "extensions/fixed-columns/bootstrap-table-fixed-columns.min.js",
+        "extensions/group-by-v2/bootstrap-table-group-by.css",
+        "extensions/group-by-v2/bootstrap-table-group-by.js",
+        "extensions/group-by-v2/bootstrap-table-group-by.min.css",
+        "extensions/group-by-v2/bootstrap-table-group-by.min.js",
+        "extensions/i18n-enhance/bootstrap-table-i18n-enhance.js",
+        "extensions/i18n-enhance/bootstrap-table-i18n-enhance.min.js",
+        "extensions/key-events/bootstrap-table-key-events.js",
+        "extensions/key-events/bootstrap-table-key-events.min.js",
+        "extensions/mobile/bootstrap-table-mobile.js",
+        "extensions/mobile/bootstrap-table-mobile.min.js",
+        "extensions/multiple-sort/bootstrap-table-multiple-sort.js",
+        "extensions/multiple-sort/bootstrap-table-multiple-sort.min.js",
+        "extensions/page-jump-to/bootstrap-table-page-jump-to.css",
+        "extensions/page-jump-to/bootstrap-table-page-jump-to.js",
+        "extensions/page-jump-to/bootstrap-table-page-jump-to.min.css",
+        "extensions/page-jump-to/bootstrap-table-page-jump-to.min.js",
+        "extensions/pipeline/bootstrap-table-pipeline.js",
+        "extensions/pipeline/bootstrap-table-pipeline.min.js",
+        "extensions/print/bootstrap-table-print.js",
+        "extensions/print/bootstrap-table-print.min.js",
+        "extensions/reorder-columns/bootstrap-table-reorder-columns.js",
+        "extensions/reorder-columns/bootstrap-table-reorder-columns.min.js",
+        "extensions/reorder-rows/bootstrap-table-reorder-rows.css",
+        "extensions/reorder-rows/bootstrap-table-reorder-rows.js",
+        "extensions/reorder-rows/bootstrap-table-reorder-rows.min.css",
+        "extensions/reorder-rows/bootstrap-table-reorder-rows.min.js",
+        "extensions/resizable/bootstrap-table-resizable.js",
+        "extensions/resizable/bootstrap-table-resizable.min.js",
+        "extensions/sticky-header/bootstrap-table-sticky-header.css",
+        "extensions/sticky-header/bootstrap-table-sticky-header.js",
+        "extensions/sticky-header/bootstrap-table-sticky-header.min.css",
+        "extensions/sticky-header/bootstrap-table-sticky-header.min.js",
+        "extensions/toolbar/bootstrap-table-toolbar.js",
+        "extensions/toolbar/bootstrap-table-toolbar.min.js",
+        "extensions/toolbar/bootstrap-table-toolbar.min.js.map",
+        "extensions/treegrid/bootstrap-table-treegrid.js",
+        "extensions/treegrid/bootstrap-table-treegrid.min.js",
+        "locale/bootstrap-table-zh-CN.js",
+        "locale/bootstrap-table-zh-CN.min.js",
+        "themes/bulma/bootstrap-table-bulma.css",
+        "themes/bulma/bootstrap-table-bulma.js",
+        "themes/bulma/bootstrap-table-bulma.min.css",
+        "themes/bulma/bootstrap-table-bulma.min.js",
+        "themes/foundation/bootstrap-table-foundation.css",
+        "themes/foundation/bootstrap-table-foundation.js",
+        "themes/foundation/bootstrap-table-foundation.min.css",
+        "themes/foundation/bootstrap-table-foundation.min.js",
+        "themes/materialize/bootstrap-table-materialize.css",
+        "themes/materialize/bootstrap-table-materialize.js",
+        "themes/materialize/bootstrap-table-materialize.min.css",
+        "themes/materialize/bootstrap-table-materialize.min.js",
+        "themes/semantic/bootstrap-table-semantic.css",
+        "themes/semantic/bootstrap-table-semantic.js",
+        "themes/semantic/bootstrap-table-semantic.min.css",
+        "themes/semantic/bootstrap-table-semantic.min.js",
+        "bootstrap-table-vue.esm.js",
+        "bootstrap-table-vue.esm.min.js",
+        "bootstrap-table-vue.js",
+        "bootstrap-table-vue.min.js",
+        "bootstrap-table.css",
+        "bootstrap-table.js",
+        "bootstrap-table.min.css"
+      ]
+    },
+    {
+      "library": "nprogress@0.2.0",
+      "destination": "wwwroot/lib/nprogress/",
+      "files": [
+        "nprogress.min.js",
+        "nprogress.css",
+        "nprogress.js",
+        "nprogress.min.css"
+      ]
+    },
+    {
+      "library": "bootstrap-fileinput@5.0.8",
+      "destination": "wwwroot/lib/bootstrap-fileinput/",
+      "files": [
+        "js/fileinput.min.js",
+        "css/fileinput-rtl.css",
+        "css/fileinput-rtl.min.css",
+        "css/fileinput.css",
+        "css/fileinput.min.css",
+        "img/loading-sm.gif",
+        "img/loading.gif",
+        "js/locales/zh.js",
+        "js/locales/zh.min.js",
+        "js/locales/zh.min.js.map",
+        "js/plugins/piexif.js",
+        "js/plugins/piexif.min.js",
+        "js/plugins/purify.js",
+        "js/plugins/purify.min.js",
+        "js/plugins/sortable.js",
+        "js/plugins/sortable.min.js",
+        "js/fileinput.js",
+        "themes/explorer/theme.css",
+        "themes/explorer/theme.js",
+        "themes/explorer/theme.min.css",
+        "themes/explorer/theme.min.js",
+        "themes/explorer-fa/theme.css",
+        "themes/explorer-fa/theme.js",
+        "themes/explorer-fa/theme.min.css",
+        "themes/explorer-fa/theme.min.js",
+        "themes/explorer-fas/theme.css",
+        "themes/explorer-fas/theme.js",
+        "themes/explorer-fas/theme.min.css",
+        "themes/explorer-fas/theme.min.js",
+        "themes/fa/theme.js",
+        "themes/fa/theme.min.js",
+        "themes/fas/theme.js",
+        "themes/fas/theme.min.js",
+        "themes/fas/theme.min.js.map",
+        "themes/gly/theme.js",
+        "themes/gly/theme.min.js"
+      ]
+    },
+    {
+      "library": "tempusdominus-bootstrap-4@5.1.2",
+      "destination": "wwwroot/lib/tempusdominus-bootstrap-4/",
+      "files": [
+        "js/tempusdominus-bootstrap-4.min.js",
+        "css/tempusdominus-bootstrap-4.min.css"
+      ]
+    },
+    {
+      "library": "icheck-bootstrap@3.0.1",
+      "destination": "wwwroot/lib/icheck-bootstrap/",
+      "files": [
+        "icheck-bootstrap.min.css"
+      ]
+    },
+    {
+      "library": "overlayscrollbars@1.12.0",
+      "destination": "wwwroot/lib/overlayscrollbars/",
+      "files": [
+        "js/OverlayScrollbars.min.js",
+        "css/OverlayScrollbars.min.css",
+        "js/jquery.overlayScrollbars.min.js"
+      ]
+    },
+    {
+      "library": "bootstrap-daterangepicker@3.0.5",
+      "destination": "wwwroot/lib/bootstrap-daterangepicker/",
+      "files": [
+        "daterangepicker.min.js",
+        "daterangepicker.min.js.map",
+        "moment.min.js",
+        "daterangepicker.min.css.map",
+        "daterangepicker.min.css",
+        "daterangepicker.js",
+        "daterangepicker.css"
+      ]
+    },
+    {
+      "library": "summernote@0.8.12",
+      "destination": "wwwroot/lib/summernote/"
+    },
+    {
+      "library": "jqueryui@1.12.1",
+      "destination": "wwwroot/lib/jqueryui/",
+      "files": [
+        "jquery-ui.min.js",
+        "jquery-ui.min.css"
+      ]
+    },
+    {
+      "library": "Chart.js@2.9.3",
+      "destination": "wwwroot/lib/Chart.js/",
+      "files": [
+        "Chart.min.js",
+        "Chart.bundle.js",
+        "Chart.bundle.min.js",
+        "Chart.css",
+        "Chart.js",
+        "Chart.min.css"
+      ]
+    },
+    {
+      "library": "jQuery-Knob@1.2.13",
+      "destination": "wwwroot/lib/jQuery-Knob/",
+      "files": [
+        "jquery.knob.min.js"
+      ]
+    },
+    {
+      "library": "moment.js@2.25.3",
+      "destination": "wwwroot/lib/moment.js/",
+      "files": [
+        "moment.min.js",
+        "moment.js",
+        "locale/zh-cn.js",
+        "locale/zh-cn.min.js",
+        "locale/zh-cn.min.js.map"
+      ]
+    },
+    {
+      "library": "jquery-sparklines@2.1.2",
+      "destination": "wwwroot/lib/jquery-sparklines/",
+      "files": [
+        "jquery.sparkline.min.js"
+      ]
+    },
+    {
+      "library": "jqvmap@1.5.1",
+      "destination": "wwwroot/lib/jqvmap/",
+      "files": [
+        "jquery.vmap.min.js",
+        "maps/jquery.vmap.algeria.js",
+        "maps/jquery.vmap.argentina.js",
+        "maps/jquery.vmap.brazil.js",
+        "maps/jquery.vmap.canada.js",
+        "maps/jquery.vmap.europe.js",
+        "maps/jquery.vmap.france.js",
+        "maps/jquery.vmap.germany.js",
+        "maps/jquery.vmap.greece.js",
+        "maps/jquery.vmap.iran.js",
+        "maps/jquery.vmap.iraq.js",
+        "maps/jquery.vmap.russia.js",
+        "maps/jquery.vmap.tunisia.js",
+        "maps/jquery.vmap.turkey.js",
+        "maps/jquery.vmap.usa.js",
+        "maps/jquery.vmap.world.js",
+        "maps/continents/jquery.vmap.africa.js",
+        "maps/continents/jquery.vmap.asia.js",
+        "maps/continents/jquery.vmap.australia.js",
+        "maps/continents/jquery.vmap.europe.js",
+        "maps/continents/jquery.vmap.north-america.js",
+        "maps/continents/jquery.vmap.south-america.js",
+        "jquery.vmap.js",
+        "jqvmap.css",
+        "jqvmap.min.css"
+      ]
+    },
+    {
+      "library": "ionicons@2.0.1",
+      "destination": "wwwroot/lib/ionicons/",
+      "files": [
+        "css/ionicons.min.css",
+        "css/ionicons.css",
+        "fonts/ionicons.eot",
+        "fonts/ionicons.svg",
+        "fonts/ionicons.ttf",
+        "fonts/ionicons.woff"
+      ]
+    },
+    {
+      "library": "font-awesome@5.13.0",
+      "destination": "wwwroot/lib/font-awesome/",
+      "files": [
+        "css/all.css",
+        "css/all.min.css",
+        "css/brands.css",
+        "css/brands.min.css",
+        "css/fontawesome.css",
+        "css/fontawesome.min.css",
+        "css/regular.css",
+        "css/regular.min.css",
+        "css/solid.css",
+        "css/solid.min.css",
+        "css/svg-with-js.css",
+        "css/svg-with-js.min.css",
+        "css/v4-shims.css",
+        "css/v4-shims.min.css",
+        "js/all.js",
+        "js/all.min.js",
+        "js/brands.js",
+        "js/brands.min.js",
+        "js/conflict-detection.js",
+        "js/conflict-detection.min.js",
+        "js/fontawesome.js",
+        "js/fontawesome.min.js",
+        "js/regular.js",
+        "js/regular.min.js",
+        "js/solid.js",
+        "js/solid.min.js",
+        "js/v4-shims.js",
+        "js/v4-shims.min.js",
+        "webfonts/fa-brands-400.eot",
+        "webfonts/fa-brands-400.svg",
+        "webfonts/fa-brands-400.ttf",
+        "webfonts/fa-brands-400.woff",
+        "webfonts/fa-brands-400.woff2",
+        "webfonts/fa-regular-400.eot",
+        "webfonts/fa-regular-400.svg",
+        "webfonts/fa-regular-400.ttf",
+        "webfonts/fa-regular-400.woff",
+        "webfonts/fa-regular-400.woff2",
+        "webfonts/fa-solid-900.eot",
+        "webfonts/fa-solid-900.svg",
+        "webfonts/fa-solid-900.ttf",
+        "webfonts/fa-solid-900.woff",
+        "webfonts/fa-solid-900.woff2",
+        "sprites/brands.svg",
+        "sprites/regular.svg",
+        "sprites/solid.svg"
+      ]
+    },
+    {
+      "provider": "unpkg",
+      "library": "@microsoft/signalr@3.1.4",
+      "destination": "wwwroot/lib/microsoft/signalr/",
+      "files": [
+        "dist/browser/signalr.js",
+        "dist/browser/signalr.min.js"
+      ]
+    },
+    {
+      "library": "vue@2.6.11",
+      "destination": "wwwroot/lib/vue/",
+      "files": [
+        "vue.min.js",
+        "vue.js"
+      ]
+    }
+  ]
+}
